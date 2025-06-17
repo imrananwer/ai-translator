@@ -1,9 +1,8 @@
-import os
 import streamlit as st
-from dotenv import load_dotenv
+import os
 import google.generativeai as genai
 
-# ⚠️ یہ لائن سب سے اوپر ہونی چاہیے
+# Set page config
 st.set_page_config(page_title="AI Translator - Imran", page_icon="🌐", layout="centered")
 
 # 🌙 Custom Styling (Dark Theme)
@@ -35,9 +34,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Environment
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+# ✅ Get API key from Streamlit secrets
+api_key = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=api_key)
 
 # Languages
