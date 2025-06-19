@@ -1,7 +1,8 @@
 [project]
-name = "translator"
+name = "ai-translator"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "streamlit",
+    "python-dotenv",
+    "google-generativeai==0.3.2"
+]
