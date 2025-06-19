@@ -54,17 +54,14 @@ languages = [
     "Polish", "Swedish", "Thai", "Vietnamese", "Hebrew", "Malay", "Czech", "Romanian", "Finnish"
 ]
 
-# 📌 Sidebar
-with st.sidebar:
-    st.header("🌍 AI Translator")
-    st.markdown("<p style='font-size:18px; color:#00ccff;'>👨‍💻 By <strong>Imran Anwer</strong></p>", unsafe_allow_html=True)
-    st.markdown("🎯 Translate English to 25+ languages using Google Gemini.")
-    st.write("---")
-    lang = st.selectbox("🌐 Select Target Language:", languages)
-
-# 🧠 Title & Input
+# 🧠 Title & Author Info (moved from sidebar)
 st.markdown('<h1 class="big-font">🔤 English to Multilingual Translator</h1>', unsafe_allow_html=True)
 st.markdown("💡 *Powered by Gemini AI*")
+st.markdown("<p style='font-size:18px; color:#00ccff;'>👨‍💻 By <strong>Imran Anwer</strong></p>", unsafe_allow_html=True)
+st.markdown("🎯 Translate English to 25+ languages using Google Gemini.")
+
+# 🌐 Language and Input
+lang = st.selectbox("🌐 Select Target Language:", languages)
 text = st.text_area("📝 Enter English text to translate:", height=180)
 btn = st.button("🚀 Translate Now")
 
