@@ -1,45 +1,34 @@
-# 🌐 AI Translator by Imran
+# 🌍 AI Translator by Imran
 
-🔤 **Translate English to 25+ Languages using Google Gemini**
+**Translate English into 25+ languages using Google Gemini AI.**  
+Built with **Python**, **Streamlit**, and **Gemini API**.
 
-A powerful and stylish Streamlit app that uses Google Gemini API to translate English text into multiple languages with a beautiful dark UI.
-
----
-
-## 🚀 Live Demo
-
-👉 [Click to Open App](https://ai-translator-6ykbzvzy9dgzt3f3mwxwfr.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-translator-6ykbzvzy9dgzt3f3mwxwfr.streamlit.app/)
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- Translate English to 25+ Languages
-- Built with Python + Streamlit
-- Uses Google Gemini 1.5 Flash
-- Dark & Responsive UI Design
-- Fast, minimal and elegant
-
----
-
-## 🌍 Supported Languages
-
-Urdu, French, Spanish, German, Chinese, Japanese, Korean, Arabic, Portuguese, Russian, Hindi, Bengali, Turkish, Italian, Dutch, Greek, Polish, Swedish, Thai, Vietnamese, Hebrew, Malay, Czech, Romanian, Finnish
+- 🌐 Translate English text into Urdu, French, Spanish, Chinese, Arabic, and 20+ other languages
+- ⚡ Fast and responsive using Gemini 1.5 Flash
+- 🎨 Modern dark UI using Streamlit & custom CSS
+- 🧠 AI powered translation logic using Google Generative AI
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Technologies Used
 
-- Python
+- Python 3
 - Streamlit
-- Google Generative AI (Gemini)
-- GitHub
+- Google Generative AI (Gemini API)
 
 ---
 
-## 📦 Installation (For Local Use)
+## 📂 Project Structure
 
 ```bash
-git clone https://github.com/imrananwer/ai-translator.git
-cd ai-translator
-pip install -r requirements.txt
+.
+├── main.py               # Main Streamlit app
+├── requirements.txt      # Python dependencies
+├── packages.txt          # (Optional) System dependencies for Streamlit Cloud
+└── README.md             # You're here!
