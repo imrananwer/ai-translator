@@ -9,17 +9,17 @@ Built with Python, Streamlit, and Gemini API.
 
 ## 📌 Features
 
-- 🌐 Translate English text into **Urdu, French, Spanish, Chinese, Arabic**, and 20+ other languages
-- ⚡ Fast and responsive using **Gemini 1.5 Flash**
-- 🎨 Modern dark UI using **Streamlit & custom CSS**
+- 🌐 Translate English text into **Urdu, French, Spanish, Chinese, Arabic**, and 20+ other languages  
+- ⚡ Fast and responsive using **Gemini 1.5 Flash**  
+- 🎨 Modern dark UI using **Streamlit & custom CSS**  
 - 🧠 AI-powered translation logic using **Google Generative AI**
 
 ---
 
 ## 🚀 Technologies Used
 
-- 🐍 Python 3
-- 📦 Streamlit
+- 🐍 Python 3  
+- 📦 Streamlit  
 - 🤖 Google Generative AI (Gemini API)
 
 ---
