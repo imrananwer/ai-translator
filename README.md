@@ -26,3 +26,15 @@ Built with Python, Streamlit, and Gemini API.
 
 ## 📂 Project Structure
 
+
+---
+
+## 🔗 Live Demo
+
+👉 **[Click here to open the app](https://ai-translator-6ykbzvzy9dgzt3f3mwxwfr.streamlit.app/)**
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by **Imran Anwer**
