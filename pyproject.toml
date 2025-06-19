@@ -1,8 +1,0 @@
-[project]
-name = "ai-translator"
-version = "0.1.0"
-dependencies = [
-    "streamlit",
-    "python-dotenv",
-    "google-generativeai==0.3.2"
-]
